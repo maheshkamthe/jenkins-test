@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image 'public.ecr.aws/docker/library/maven:3.9-sapmachine' }
+        docker { image 'maven:3.9-sapmachine' }
     }
     stages {
         stage('Source') {
